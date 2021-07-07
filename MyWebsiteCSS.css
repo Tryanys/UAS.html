@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: wheat;
+}
+.header{
+    background-color: turquoise;
+    padding: 20px;
+    text-align: center;
+}
+.topnav{
+    overflow: hidden;
+    background-color: slategray;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: snow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: whitesmoke;
+    color:black;
+}
